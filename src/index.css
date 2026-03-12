@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.leaflet-tooltip.bg-zinc-900 {
+  background-color: #18181b !important;
+  border: 1px solid #27272a !important;
+  color: #f4f4f5 !important;
+}
+
+.leaflet-tooltip.bg-zinc-900::before {
+  border-top-color: #27272a !important;
+}
+
+.leaflet-tooltip-left.bg-zinc-900::before {
+  border-left-color: #27272a !important;
+}
+
+.leaflet-tooltip-right.bg-zinc-900::before {
+  border-right-color: #27272a !important;
+}
+
+.leaflet-tooltip-bottom.bg-zinc-900::before {
+  border-bottom-color: #27272a !important;
+}

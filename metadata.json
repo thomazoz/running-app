@@ -1,0 +1,7 @@
+{
+  "name": "Dynamic Route Generator",
+  "description": "Generates dynamic routes based on distance, elevation preference, and direction.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
